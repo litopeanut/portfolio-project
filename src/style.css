@@ -103,6 +103,39 @@ p {
   padding: 120px 60px 0;
 }
 
+.logo {
+  max-width: 160px;
+}
+
+nav {
+  padding: 10px 0;
+}
+
+nav ul {
+  font-family: var(--default-font-family);
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  font-size: 14px;
+  margin-left: 12px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
